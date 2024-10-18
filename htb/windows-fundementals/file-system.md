@@ -48,5 +48,5 @@ Integrity Control Access Control List
     - R -> Read-only access
     - W -> Write-only access
 - We can add and remove permissions via the command line using icacls
-- Using the command icacls c:\users /grant joe:f we cna grand the joe user full control over the directory
-- These permissions can be revoked using the command icacls c:\users /remove joe
+- Using the command 'icacls c:\users /grant joe:f' we cna grand the joe user full control over the directory
+- These permissions can be revoked using the command 'icacls c:\users /remove joe'
