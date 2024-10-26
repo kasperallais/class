@@ -1,0 +1,32 @@
+- Graphical User Interface
+    - Introduced in the late 1970s by the Xerox Palo Alto research laboratory
+    - Added to Apple and Microsoft operating systems to address usability concerns for everyday users that would likely have difficulty navigating the command line
+- Remote Desktop Protocol (RDP)
+    - RDP is a proprietary Microsoft protocol which allows a user to connect to a remote system over a network connection and obtain a graphical user interface
+    - The user connects using RDP client software
+    - RDP uses port 3389 to open a dedicated network channel for sending data back and forth. When connecting via RDP, a user can access the GUI as if they were actually sitting at the computer and logging into it locally.
+- Windows Command Line
+    - Can be leveraged to introduce automation to perform certain tasks quickly
+    - Two main ways to interact with the system from the command line:
+        - Command Prompt (CMD)
+        - PowerShell
+- CMD
+    - The Command prompt can be opened from the Start Menu, by typing cmd in the run dialogue box, or by directly launching the binary from C:\Windows\system32\cmd.exe
+    - For more information about a command, we can use 'help <command name>'
+    - Certain commands have their own help menus, which can be accessed by typing<command> /?.
+- PowerShell
+    - Command shell that was designed by Microsoft to be more geared towards system administrators
+    - PowerShell is built on top of the .NET Framework, which is used for building and running applications on Windows.
+- Cmdlets
+    - Small single-function tolls built into the shell
+    - Cmdlets are in the form of Verb-Noun
+- Aliases
+    - Many cmdlets have aliases
+    - For example, the aliases for the cmdlet Set-Location, to change directories, is either cd or sl
+    - We can view all available aliases by typing Get-Alias
+Running Scripts
+- The PowerShell ISE allows users to write PowerShell scripts on the fly
+Execution Policy
+- Sometimes we will find that we are unable to run scripts on a system
+- This is due to a security feature called the execution policy, which attempts to prevent the execution of malicious scripts
+
