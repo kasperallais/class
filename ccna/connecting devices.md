@@ -1,0 +1,4 @@
+- When connecting a [[router]] and a [[switch]] no collisions will happen because they use different cables
+- [[router]] and PCs operate the same way but [[switch]] are the opposite
+- Straight through cable (1->1, 2->2)
+- If we want to connect a [[router]] to a router we need a [[cross-over cable]]

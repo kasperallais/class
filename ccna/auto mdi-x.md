@@ -1,0 +1,2 @@
+- Fixes the issue with [[cross-over cable]] directly in the router
+- No longer needs [[cross-over cable]]

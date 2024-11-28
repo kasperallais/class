@@ -1,0 +1,2 @@
+- A server is a device that provides function or services for [[client]]
+- The same device can be a [[client]] in some situation, and a server in other situations

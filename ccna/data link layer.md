@@ -1,0 +1,6 @@
+- Layer 2 of [[osi model]]
+- Provides node-to-node connectivity and data transfer
+- Defines how data in transmitted over a physical medium
+- Detects and corrects [[physical layer]] errors
+- Uses [[data link layer]] addressing, separate from [[network layer]] addressing
+- Switches operate at the [[data link layer]]

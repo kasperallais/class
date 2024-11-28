@@ -1,0 +1,4 @@
+- A computer network is a digital telecommunication network which allows nodes to share resources
+- Multiple types of nodes: [[router]], [[switch]], [[firewall]], [[server]] and [[client]]
+- Clients and servers are end pionts
+- Two PC's connected with a wire form a network (a simple one)

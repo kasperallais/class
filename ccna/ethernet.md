@@ -1,0 +1,4 @@
+- Ethernet is a collection of [[network]] protocols and standards
+- Defined in IEEE 802.3 standard in 1983
+- BASE = refers to baseband signaling
+- T = twisted pair

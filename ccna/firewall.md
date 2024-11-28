@@ -1,0 +1,6 @@
+- [[router]] can provide basic security features
+- Firewalls can control network traffic entering and exiting the [[network]]
+- Firewalls need rules
+- Can be placed 'inside' or 'outside' network
+- NGFW's provide more features
+- Examples: ASA 5500-X, Firepower 2100

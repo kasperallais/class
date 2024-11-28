@@ -1,0 +1,3 @@
+- Cables in a cross-over cable go from one cable on one machine to the opposite one on the other to avoid collisions
+- This is used when connecting two devices that use the same ports for transmit and receive (switch -> switch, router -> PC)
+- Avoid using these on newer switches by using [[auto mdi-x]]
