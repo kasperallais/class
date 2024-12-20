@@ -1,0 +1,3 @@
+- Part of [[enable password]]
+- Uses Cisco 7 encryption which is easily cracked
+- Instead use 'enable secret PASS' (Uses MD5)

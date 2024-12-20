@@ -1,0 +1,3 @@
+- Protocol data units
+- Data, segment, packet, frame
+- The [[physical layer]] is bits

@@ -1,0 +1,2 @@
+- How to save [[cli config files]]
+- Three options,'write' or 'write memory' or 'copy running-config startup-config'

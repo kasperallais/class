@@ -1,0 +1,5 @@
+- type of [[fiber-optic conneciton]]
+- In multimode [[fiber-optic conneciton]] the core is wider than the [[singlemode fiber]]
+- Allows multiple angles (modes) of light waves to enter the fiberglass core
+- It also allows for longer cables than [[utp cables]] but shorter than [[singlemode fiber]]
+- Cheaper than [[singlemode fiber]]

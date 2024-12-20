@@ -1,0 +1,5 @@
+- Data is prepared by the [[the upper layers]]
+- A [[transport layer]] header is added on 
+- The unit of data with the [[transport layer]] header is called a segment
+- Data, [[network layer]] header and [[transport layer]] header are called a packet
+- A [[data link layer]] header and trailer are added, all of this is called a frame

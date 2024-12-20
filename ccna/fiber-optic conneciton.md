@@ -1,0 +1,9 @@
+- Used to connect devices into a [[switch]]
+- SFP transceiver into the port and then a fiber optic cable
+- There are two cables in a fiber-optic cable
+	- One for transmit and one for receive
+- 4 components in a fiberglass cable
+	- The core
+	- Cladding that reflects light
+	- A protective buffer
+	- The outer jacket of the cable

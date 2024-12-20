@@ -1,0 +1,5 @@
+- Speed (baud) -> 9600
+- Data bits -> 8
+- Stop bits -> 1
+- Parity -> None
+- Flow Control -> None

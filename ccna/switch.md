@@ -1,0 +1,6 @@
+- Switches cannot directly connect to the internet
+- Cisco catalyst switches are the enterprise grade switches provided by Cisco
+- Switches ...
+	- have many ports for end points to connect to
+	- provide connectivity to hosts within the same LAN
+	- do not provide connectivity to the internet (for that we need [[router]])

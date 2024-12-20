@@ -1,0 +1,2 @@
+- [[network]] engineers don't usually work with the top 3 [[osi model]] layers.
+- Application developers work with the top layers of the [[osi model]] to connect their applications over [[network]]

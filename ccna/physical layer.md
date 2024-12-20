@@ -1,0 +1,3 @@
+- Defines physcial characteristics of the medium used to transfer data between devices
+- Voltage levels, maximum trasmission distances, physical connectors, cable specification, etc.
+- Digital [[bits and bytes]] are converted into electrical or radio
