@@ -1,5 +1,0 @@
-- Conceptual model and set of communcation protocols used in the internet and other [[network]]
-- Knows as TCP/IP because those are two foundation protocols in the suit
-- Developed by the DOD though DARPA
-- Similar to [[osi model]] but with fewer layers
-- Model in use in modern [[network]]

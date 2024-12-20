@@ -1,9 +1,0 @@
-- 0 or 1
-- Variation in current
-- Speed is in bits/s
-- Data on hard drive is in bytes so be careful
-- 1 kilobit = 1000 bits
-- 1 megabit = 1,000,000 bits
-- 1 gigabit = 1,000,000,000 bits
-- 1 terabit = 1,000,000,000,000 bits
-- 

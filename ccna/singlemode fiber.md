@@ -1,5 +1,0 @@
-- type of [[fiber-optic conneciton]]
-- Core diameter is narrower than [[multimode fiber]]
-- Light enters at a single angle from a laser-based transmitter
-- Allows longer cables than both [[utp cables]] and [[multimode fiber]]
-- More expensive than [[multimode fiber]] due to laser transmitter

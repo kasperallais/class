@@ -1,1 +1,0 @@
-- Host-based [[firewall]] are software applications that filter traffic entering and exiting a host machine, like a PC

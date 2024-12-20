@@ -1,5 +1,0 @@
-- Used to connect devices to a [[switch]] or into a [[network]]
-- Unshielded
-- They are in a twisted pair which protects against EMI
-- 10BASE-T and 100BASE-T = 2 Pairs (4 wires)
-- 1000BASE-T and 10GBASE-T = 4 Pairs (8 wires)

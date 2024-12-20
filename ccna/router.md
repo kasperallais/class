@@ -1,5 +1,0 @@
-- ISR 1000, ISR 900, ISR 4000
-- Routers ...
-	- have fewer network interfaces than switches
-	- are used to provide connectivity between LANs (Local Area Networks)
-	- are therefore used to send data over the internet

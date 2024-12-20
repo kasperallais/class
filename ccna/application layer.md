@@ -1,7 +1,0 @@
-- Layer 7 of the [[osi model]]
-- This layer is closest to the end user
-- Interacts with software applications, for example your web browser
-- HTTP and HTTPS are layer 7 partners
-- Functions of layer 7:
-	- Identifying communication partners
-	- Syncronizing communication

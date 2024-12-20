@@ -1,5 +1,0 @@
-- Open System Interconnection
-- A conceptual model that categorizes and standardises the different functions in a [[network]]
-- Created by the 'Internation Organization for Standardization' (ISO)
-- Functions are divided into 7 'Layers'
-- These layers work together to make the [[network]] work.

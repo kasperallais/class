@@ -1,2 +1,0 @@
-- Mode in [[cli]]
-- Use command 'configure terminal' or 'conf t' (shortcut)

@@ -1,4 +1,0 @@
-- There are two separate configuration files kept on the device at once
-- running-config = the current, active configuration file on the device. As you enter commands in the [[cli]], you edit the active config
-- startup-config = the configuration file that will be loaded upon restart of the device.
-- To show running / startup config use 'show running-config' or 'show startup-config'

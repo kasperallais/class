@@ -1,2 +1,0 @@
-- Command in [[cli]] used to enable password (unencrypted)
-- Passwords are case-sensitive

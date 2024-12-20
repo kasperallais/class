@@ -1,2 +1,0 @@
-- Networking models categorize and provide a structure for [[network]] protocols and standards
-- A networking protocol is a set of rules defining how devices and software should work. These are logical rules.

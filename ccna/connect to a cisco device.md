@@ -1,4 +1,0 @@
-- Connect through console port with PC
-- USB Mini-B or RJ-45 ([[ethernet]])
-- Use a RJ45 to DB9 and then an adapter if needed
-- Called a roll-over cable

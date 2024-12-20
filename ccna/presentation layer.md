@@ -1,6 +1,0 @@
-- Layer 6 of the [[osi model]]
-- Data in the [[application layer]] is in 'application format'
-- It needs to be 'translated' to a different format to be sent over the network.
-- The presentation layer's job is to translate between application and [[network]] format
-- For example, encryption of data as it is sent, and decryption of data as it is received
-- Also translates ebtween different [[application layer]] formats

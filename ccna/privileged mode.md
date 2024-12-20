@@ -1,4 +1,0 @@
-- Mode in the [[cli]]
-- Activated using 'enable' in [[cli]]
-- Provides complete access to view the device's configuation, restart the device, etc.
-- Cannot change the configuration, but can change the time on the device, save the config file, etc.

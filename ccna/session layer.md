@@ -1,3 +1,0 @@
-- Layer 5 of the [[osi model]]
-- Controls dialogs (sessions) between communicating hosts
-- Establishes, manages, and terminates connections between the local application and the remove application

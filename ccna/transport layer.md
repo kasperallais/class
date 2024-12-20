@@ -1,4 +1,0 @@
-- Layer 4 of the [[osi model]]
-- Segments and reassembles data for communication between end hosts.
-- Breaks large pieces of data into smaller segments of data which can be more easily sent over the [[network]] and are less likely to cause transmission problems if error occurs
-- Provide host to host communication

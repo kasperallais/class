@@ -1,3 +1,0 @@
-- Command Line Interface
-- The interface you use to configure Cisco devices ([[switch]], [[router]], etc.)
-- GUI (Graphical User Interface) | Not as used in Cisco interfaces but does exist
