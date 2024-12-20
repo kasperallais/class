@@ -37,6 +37,7 @@ Same device connection
 - TX and RX pins per device
     - Router, Firewall, PC
         - TX (1,2) and RX (3,6)
+    - Switch
         - TX (3,6) and RX (1,2) 
 - Most modern devices don't have to worry about cross-over cables
     - Auto MDI-X
