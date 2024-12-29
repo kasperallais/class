@@ -1,0 +1,14 @@
+Network Layer
+- The network layer of OSI controls the exchange of data packets, as these cannot be directly routed to the receiver and therefore have to provided with routing nodes
+- The data packets are then transferred from node to node until they reach their target
+- To implement this, the network layer identifies the individual network nodes, sets up and clears connection channels, and takes care of routing and data flow control
+- When sending the packets, addresses are evaluated, and the data is routed through the network from node to node
+- There is usually no processing of the data in the layers above the L3 in the nodes
+- Protocols are defined in each layer of the OSI, and these protocols represent a collection of rules for communication in the respective layer
+- They are transparent to the protocols of the layers above or bellow
+- Some protocols fulfill tasks of several layers and extend over two or more layers
+- It ensures the routing of packets from source to destination within or outside a subnet
+- These two subnets may have different addressing schemes or incompatible addressing types
+- In both cases, the data transmission in each case goes through the entire communication network and includes routing between the network nodes
+- Since direct communication between the sender and the receiver is not always possible due to the different subnets, packets must be forwarded from nodes that are on the way
+- Forwarded packets do not reach the higher layers but are assigned a new intermediate destination and sent to the next node

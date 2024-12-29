@@ -46,5 +46,26 @@ Ring
 - The control and access to the transmission medium are regulated by a protocol to which all stations adhere
 - A logical ring topology is based on a physical start topology, where a distributor at the node simulates the ring by forwarding from one port to the next
 - The information is transmitted in a predetermined transmission direction
-- Typically, the transmission medium is accessed sequentially from station to station using a retreival system from the central station or a token
-- A token is a bit patterns that continually passes through a ring network in one directoin, which works acco
+- Typically, the transmission medium is accessed sequentially from station to station using a retrieval system from the central station or a token
+- A token is a bit patterns that continually passes through a ring network in one direction, which works according to the claim token process
+Mesh
+- Many nodes decide about the connections on a physical level and the routing on a logical level in meshed networks
+- There are two basic structures from the basic concept: the fully meshed and the partially meshed structure
+- Each host is connected to every other host in the network in a fully meshed structure
+- That means that the hosts are meshed with each other
+- This technique is primarily used in WAN or MAN to ensure high reliability and bandwidth
+- Each node of a fully meshed topology has the same routing functions and knows the neighboring nodes it can communicate with proximity to the network gateway and traffic loads
+- In the partially meshed structure, the endpoints are connected by only one connection
+- In this type of network topology, specific nodes are connected to exactly one other node, and some other nodes are connected to two or more other nodes with a point-to-point connection
+Tree
+- The tree topology is an extended star topology that more extensive local networks have in this structure
+- This topology is often used in larger company buildings
+- There are both logical tree structures according to the spanning tree and physical ones
+- Modular modern networks, based on structured cabling with a hub hierarchy, also have a tree structure
+- Tree topologies are also used for broadband networks and city networks
+Hybrid
+- Hybrid networks combine two or more topologies so that the resulting network does not present any standard topologies
+- A hybrid topology is always created when two different basic network topologies are interconnected
+Daisy Chain
+- Multiple hosts are connected by placing a cable from one node to another
+- Since this creates a chain of connections, it is also known as a daisy-chain configuration in which multiple hardware components are connected in a series
