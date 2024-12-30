@@ -1,0 +1,51 @@
+MAC addresses
+- Each host in a network has its own 48-bit Media Access Control (MAC) address, represented in hexadecimal format
+- MAC is the physical address for our network interface
+- There are several different standard for the MAC address
+    - Ethernet (IEE 802.3)
+    - Bluetooth (IEEE 802.15)
+    - WLAN (IEEE 802.11)
+- This is because the MAC address addresses the physical connection (network card, Bluetooth, or WLAN adapter) of a host
+- Each network card has its individual MAC address, which is configured once on the manufacturer's hardware side but can always be changed, at least temporarily
+- When an IP packet is delivered, it must be addressed on layer 2 to the destination host's physical address or to the router / NAT, which is responsible for routing. Each packet has a sender address and a destination address
+- The MAC address consists of a total of 6 bytes. The first half is the so-called Organization Unique Identifier defined by the IEE for the respective manufacturers
+- The last half of the MAC address is called the Individual Access Part or Network Interface Controller (NIC), which the manufacturers assigns
+- The manufacturer sets this bit sequence only once and thus ensure that the complete address is unique
+- If a host with the IP target is located in the same subnet, the delivery is made directly to the target computer's physical address
+- However, if this host belongs to a different subnet, the Ethernet frame is addressed to the MAC address of the responsible router
+- If the Ethernet frame's destination address matches its own layer 2 address, the router will forward the frame to the higher layers
+- Address Resolution Protocol (ARP) is used in IPv4 to determine the MAC addresses associated with the IP addresses
+- As with IPv4 addresses, there are also certain reserved areas for the MAC address. These include for example the local range for the MAC
+- The last two bits in the first octet can play another essential role
+- The last bit identified the MAC address as Unicast (0) or Multicast(1)
+- With unicast, it means that the packet sent will reach only one specific host
+MAC Unicast
+- With multicast, the packet is sent only once to all hosts on the local network, which then decides whether or not to accept the packet based on their configuration
+- The multicast address is a unique address, just like the broadcast address, which has fixed octet values
+- Broadcast in a network represents a broadcast call, where data packets are transmitted simultaneously from one point to all members of a network
+- It is mainly used if the address of the receiver of the packet is not known yet
+MAC vulnerabilities 
+- MAC addresses can be changed/manipulated or spoofed, and as such, they should not be relied upon as a sole means of security or identification
+- There exist several attack vectors that can potentially be exploited through the use of MAC addresses
+    - MAC spoofing: This involves altering the MAC address of a device to match that of another device, typically to gain unauthorized access to a network
+    - MAC flooding: This involves sending many packets with different MAC addresses to a network switch, causing it to reach its MAC address table capacity and effectively preventing it from functioning correctly
+    - MAC address filtering: Some networks may be configured to only allow access to devices with specific MAC addresses that we could potentially exploit by attempting to gain access to the network using a spoofed MAC address
+Address Resolution Protocol
+- Address Resolution Protocol is a network protocol
+- It is an important part of the network communication used to resolve a network layer IP address to a link layer MAC address
+- It maps a host's IP address to it's corresponding MAC address to facilitate communication between devices on a LAN
+- When a device on a LAN wants to communicate with another device, it sends a broadcast message containing the destination IP and its own MAC address
+- The device with the matching IP address responds with it's own MAC address, and the two devices can then communicated directly using their MAC address
+- Two types of request messages can be used
+    - ARP Request
+        - When a device wants to communicate with another device on a LAN, it sends an ARP request to resolve the destination device's IP address to its MAC address
+        - The request is broadcast to all devices on the LAN and contains the IP address of the destination device
+        - The device with the matching IP address responds with its MAC address
+    - ARP Reply
+        - When a device receives an ARP request, it sends an ARP reply to the requesting device with its MAC address
+        - The reply message contains the IP and the MAC addresses of both the requesting and responding devices
+ARP spoofing
+- ARP spoofing, also known as ARP cache poisoning or ARP poison routing, is an attack that can be done using tools like Ettercap or Cain & Abel in which we send falsified ARP messages over a LAN
+- The goal is to associate our MAC address with the IP address of a legitimate device on the company's network, effectively allowing us to interact traffic intended for the legitimate device
+- We can use ARP poisoning to perform to perform various activities, such as stealing sensitive information, redirecting traffic, or launching MITM attacks
+- However, to protect against ARP spoofing, it is important to use secure network protocols, such as IPSec or SSL, and to implement security measure, such as firewalls and intrusion detection systems
