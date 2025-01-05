@@ -1,2 +1,23 @@
 Vendor Specific Information
-- Cisco IOS is the operating system of Cisco network devices
+- Cisco IOS is the operating system of Cisco network devices such as routers and switches
+- It provides features and services required to manage and operate network devices
+- The operating system comes in different versions and releases that vary in features, support, and performance
+- It offers several features required for the operation of modern networks, such as, but not limited to:
+    - Support for IPv6
+    - Quality of Service (QoS)
+    - Security features such as encryption and authentication
+    - Virtualisation features such as Virtual Private LAN Service (VPLS)
+    - Virtual Routing and Forwarding (VRF)
+- Cisco IOS can be managed in several ways, depending on the network device and hardware used
+- The most commonly used method is the command line interface (CLI), which can also be manged in the graphical user interface (GUI)
+- In addition, it supports various network protocols and services required for network operations
+- These include:
+    - Routing Protocols - OSPF and BGP are used to route data packets on a network
+    - Switching Protocols - VLAN Trunking Protocol (VTP) and Spanning Tree Protocol (STP) is used to configure and manage switches on a network
+    - Network Services - Dynamic Host Configuration Protocol (DHCP) is used to automatically provide clients on the network with IP addresses and other network configurations
+    - Security Features - Access Control Lists (ACLs), which are used to control access to network resources and prevent security threats
+VLANs
+- A VLAN is a logical grouping of network endpoints connected to defined ports on a switch, allowing the segmentation of networks by creating logical broadcast domains that can span multiple physical LAN segments
+- With VLANs, network administrators can segment the networks based on factors such as team, function, department, or application, without worrying about the physical location of endpoints and users
+- A broadcast packet sent over one VLAN does not reach any other endpoint that is a member of another VLAN
+- Because each VLAN is regarded as a broadcast domain, it needs to have it's own subnet

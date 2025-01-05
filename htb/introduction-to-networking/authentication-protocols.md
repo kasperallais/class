@@ -1,0 +1,17 @@
+Authentication Protocols
+- Many different authentication protocols are used in networking to verify the identity of devices and users
+- Those protocols are essential because they provide a secure and standardized way of verifying the identity of users, devices, and other entities in a network
+- Without authentication protocols, it would be difficult to securely and reliably identify entities in a network, making it easy for attackers to gain unauthorized access and potentially compromise the network
+- Authentication protocols also provide a means for securely exchanging information between entities in a network which we will discuss briefly
+- This is important for ensuring the confidentiality and integrity of sensitive dat aand preventing unauthorized access and other security threats
+- Here are some of the most commonly used protocols
+    - Kerberos - Key Distribution Center (KDC) based authentication protocol that uses tickets in domain environments
+    - SRP - This is a password-based authentication protocol that uses cryptography to protect against eavesdropping and man-in-the-middle attacks
+    - SSL - A cryptographic protocol used for secure communication over a network network
+    - TLS - TLS is a cryptographic protocol that provides communication security over the internet. It is the successor to SSL
+    - OAuth - An open standard for authorization that allows users to grant third-party access to their web resources without sharing their passwords
+    - OpenID - OpenID is a decentralized authentication protocl that allows users to use a single identity to sign in to multiple websites
+    - SAML - Security Assertion Markup Language is an XML-based standard for securely exchanging authentication and authorizaiton between parties
+    - 2FA - An authentication method that uses a combination of two different factors to verify a user's identity.
+    - FIDO - The Fast IDentity Online Alliance is a consortium of companies working to develop open standards for strong authentication
+    - PKI -	PKI is a system for securely exchanging information based on the use of public and private keys for encryption and digital signatures.
