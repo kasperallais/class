@@ -31,4 +31,20 @@ BPF Syntax
 - In essence, BPF is a technology that enables a raw interface to read and write from the Data-Link layer
 - With all this in mind, we care for BPF because of the filtering and decoding abilities it provides us
 - We will be utilizing BPF syntax through the module, so a basic understanding of how a BPF filter is set up can be helpful
-
+Performing Network Traffic Analysis
+- Performing analysis can be as simple as watching live traffic roll in our console or as complex as capturing data with a tap, sending it back to a SIEM for ingestion, and analyzing the pcap data and alerts related to common tactics and techniques
+- At a minimum, to listen passively, we need to be connected to the network segment we wish to listen on 
+- This is especially true in a switched environment where VLANS and switch ports will not forward traffic outside their broadcast domain
+- With that in mind, if we wish to capture traffic from a specific VLAN, our capture device should be connected to the same network
+- Devices like network taps, switch or router configurations like span ports, and port mirroring can allow us to get a copy of all traffic traversing a specific link, regardless of what network segment or destination it belongs to
+NTA Workflow
+- Traffic Analysis is not an exact science. NTA can be a very dynamic process and is not a direct loop
+- It is greatly influence by what we are looking for and where we have visibility into our network
+- Perming traffic analysis can be distilled down to a few basic tenants
+    - Ingest traffic - Once we have decided our placement, begin capturing traffic. Utilize capture filters if we already have an idea of what we are looking for
+    - Reduce Noise by Filtering - Capturing traffic of a link, especially one in a production environment, can be extremely noisy. Once we complete the initial capture, an attempt to filter out unnecessary traffic from our view can make analysis easier
+    - Analyze and Explore - Now is the time to start carving out data pertinent to the issue we are chasing down. Look at specific hosts, protocols, even things as specific as flags set in the TCP header. The following questions will help us:
+        - Is the traffic encrypted or plain text? Should it be?
+        - Can we see users attempting to access resources which they should not have access?
+        - Are different hosts talking to each other that typically do not?
+    - Detect and Alert - Are we seeing any errors? Is a device not responding that should be? Use our analysis to decide if what we see is benign or potentially malicious. Other tolls like IDS and IPS can come in handy at this point. They can run heuristics and signatures against the traffic to determine if anything within is potentially malicious
