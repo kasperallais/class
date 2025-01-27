@@ -12,5 +12,3 @@
 - For active traffic capture and analysis, the needs are a bit different
 - Active capture requires us to take a more hands-on approach
 - This process can also be referred to as in-line traffic captures
-
-
