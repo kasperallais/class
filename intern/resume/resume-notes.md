@@ -25,14 +25,14 @@ Professional Experience
 Certifications
 - CompTIA Security+ (3ZE2M3B6FBB11XS8)
     - Gained a comprehensive understanding of security concepts, including network security protocols, authentication methods, and encryption techniques to safeguard systems and data
-    - Developed skills in identifying, analyzing, and responding to cybersecurity threats, including malware, phishing, and sicial engineering attacks
+    - Developed skills in identifying, analyzing, and responding to cybersecurity threats, including malware, phishing, and social engineering attacks
     - Learned how to implement risk management strategies, conduct vulnerability assessments, and apply security controls to ensure the integrity and confidentiality of organizational systems
 
 Leadership and Extracurriculars
 - Mines Lacrosse Team, Fundraising Chair
     - Raised $4,240 in sponsorships and donations to support team operations, travel expenses, and purchasing equipment
     - Cultivated and maintained relationships with donors, ensuring continued financial support through regular communication and updates
-    - Organized fundraising events and initiatives, contributing to a collaborative team effort effor to achieve financial goals and enhance team resources
+    - Organized fundraising events and initiatives, contributing to a collaborative team effort effort to achieve financial goals and enhance team resources
 - National Organization for Business and Engineering (NOBE), Secretary 
     - Accurately recorded meeting minutes and ensure proper documentation, maintaining an organized record of all club activities and decisions
-    - Assisted in planning and coordinating events and workshops, helping to create valuable learning experiences for memberm
+    - Assisted in planning and coordinating events and workshops, helping to create valuable learning experiences for members
