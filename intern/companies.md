@@ -1,0 +1,9 @@
+# Companies
+- Apple
+- Microsoft
+- Oracle 
+- SAP
+- IBM
+- Shell
+- Exxon
+- Engie
