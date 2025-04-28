@@ -1,0 +1,1 @@
+Hi, I'm Kasper Allais and today I will be learning about the one-way hash function and MAC
