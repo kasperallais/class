@@ -107,7 +107,60 @@
 # Access Control Entries (ACEs)
 - Each ACE in an ACL identifies a trustee and lists the access rights that are allowed, denied, or audited for the given trustee
 
-# Discetionary Access Control Lists (DACL)
-- DACLs define which security principles are granted or deined access to an object; it contains a list of ACEs
+# Discretionary Access Control Lists (DACL)
+- DACLs define which security principles are granted or denied access to an object; it contains a list of ACEs
 - When a process tries to access a securable object, the system checks the ACEs in the object's DACL to determine whether or not to grant access
 - If an object does NOT have a DACL
+
+# System Access Control Lists (SACL)
+- Allows for administrators to log access attempts that are made to secured objects
+- ACEs specify the type of access attempts that cause the system to generate a record in the security event log
+
+# Fully Qualified Domain Name (FQDN)
+- A FQDN is the complete name for specific computer or host
+- Written in the format [host name].[domain name].[tld]
+- Used to specify an object's location in the tree hierarchy of DNS
+
+# Tombstone
+- A tombstone is a container object in AD that holds deleted AD objects
+- When an object is deleted from AD, the object remains for a set period of time known as a Tombstone Lifetime
+- Once an object exceeds the Tombstone Lifetime, it will be removed
+
+# AD Recycle Bin
+- The AD Recycle Bin was first introduced in Windows Server 2008 R2 to facilitate the recovery of deleted AD objects
+- Made it easier for sysadmins to restore objects, avoiding the need to restore from backups
+- When the AD Recycle Bin is enabled, any deleted objects are preserved for a period of time, facilitating restoration if needed
+- The biggest advantage of using the AD Recycle bin is that most of a deleted object's attributes are preserved, which makes it far easier to fully restore a deleted object
+
+# SYSVOL
+- The SYSVOL folder, or share, stores copies of public files in teh domain such as sytem policies, Group Policy settings, logon/logoff scripts, and often other types of scripts that are executed to perform various tasks in the AD environment
+
+# AdminSDHolder
+- The AdminSDHolder object is used to manage ACLs for members of built-in groups in AD marked as privileged
+
+# dsHeuristics
+- String value set on the Directory Service object used to define multiple forest-wide configuration settings
+- One of these settings is to exclude built-in groups from the Protected Groups list
+
+# adminCount
+- Attribute that determines whether or not the SDProp process protects a user
+
+# Active Directory Users and Computers
+- ADUC is a GUI console commonly used for managing users, groups, computers, and contacts in AD
+
+# ADSI Edit
+- ADSI Edit is a GUI tool used to manage objects in AD
+- It provides access to far more than is avaibalable in ADUC and can be used to set or delete any attribute available on an object, add, remove, and move objects as well
+- It is a powerful tool that allows a user to access AD at a much deeper level
+
+# sIDHistory
+- Atrribute that holds an SIDs that an objects was assigned previously
+
+# NTDS.DIT
+- Can be considered the heart of Active Directory
+- It is stored on a Domain Controller at C:\Windows\NTDS\ and is a dataase that stores AD data such as information about user and group objects, group mebership, and most important to attackers and pentesters, the password hashes for all users in the domain
+- Once a full domain conpromise is reached, an attacker can retrieve this file, extract the hashes, and either use them to perform a pass-the-hash attack or crach them offiline using a tool such as Hashcat to access additional resouces in the domain
+
+# MSBROWSE
+- Microsoft networking protocol that was used in the early verisons of Windows LANs to provide browsing services
+
